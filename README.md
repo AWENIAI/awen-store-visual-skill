@@ -85,6 +85,18 @@
 - `examples/`：可直接复制的快捷示例
 - `assets/cases/`：实际产出展示案例
 
+## 随手拍对比
+
+下面两张是原始随手拍素材，用来对比后面生成的星巴克详情页效果。
+
+### 随手拍 1
+
+![星巴克随手拍 1](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/14-starbucks-snapshot-back.png)
+
+### 随手拍 2
+
+![星巴克随手拍 2](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/15-starbucks-snapshot-front.png)
+
 ## 实际产出展示
 
 ### 门店海报
@@ -120,6 +132,28 @@
 ![杯装页案例](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/12-coffee-cup.png)
 
 ![包装细节页案例](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/13-package-details.png)
+
+### 星巴克详情页效果
+
+![星巴克详情页效果图 1](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/04-detail-9-10.png)
+
+![星巴克详情页效果图 2](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/05-product-info-overview.png)
+
+![星巴克详情页效果图 3](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/06-coffee-ingredients.png)
+
+![星巴克详情页效果图 4](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/07-coffee-roast.png)
+
+![星巴克详情页效果图 5](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/08-coffee-lifestyle.png)
+
+![星巴克详情页效果图 6](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/09-coffee-roast-profile.png)
+
+![星巴克详情页效果图 7](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/10-coffee-pour.png)
+
+![星巴克详情页效果图 8](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/11-coffee-product-cover.png)
+
+![星巴克详情页效果图 9](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/12-coffee-cup.png)
+
+![星巴克详情页效果图 10](/Users/karissa/Documents/New%20project/awen-store-visual-skill/assets/cases/13-package-details.png)
 
 ## 输出习惯
 
