@@ -128,18 +128,6 @@ git clone https://github.com/AWENIAI/awen-store-visual-skill.git <Antigravity sk
 - 信息不全时，可以先生成通用版本，但真实品牌名、价格、成分和活动时间不要乱补
 - PSD 相关任务优先输出分层清单与合成规则
 
-## 随手拍对比
-
-下面两张是原始随手拍素材，用来对比后面生成的星巴克详情页效果。
-
-### 随手拍 1
-
-![星巴克随手拍 1](assets/cases/14-starbucks-snapshot-back.png)
-
-### 随手拍 2
-
-![星巴克随手拍 2](assets/cases/15-starbucks-snapshot-front.png)
-
 ## 实际产出展示
 
 ### 门店海报
@@ -155,10 +143,6 @@ git clone https://github.com/AWENIAI/awen-store-visual-skill.git <Antigravity sk
 ![海报案例](assets/cases/03-steak-set.png)
 
 ## 星巴克详情页效果
-
-![星巴克随手拍 1](assets/cases/14-starbucks-snapshot-back.png)
-
-![星巴克随手拍 2](assets/cases/15-starbucks-snapshot-front.png)
 
 ![星巴克详情页效果图 1](assets/cases/04-detail-9-10.png)
 
