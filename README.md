@@ -19,10 +19,20 @@
 2. 确保根目录直接包含 `SKILL.md`。
 3. 重启或刷新 Codex 后即可使用。
 
+一键复制安装：
+
+```bash
+mkdir -p ~/.codex/skills ~/.agents/skills
+cp -R awen-store-visual-skill ~/.codex/skills/
+cp -R awen-store-visual-skill ~/.agents/skills/
+```
+
 常见路径：
 
-- `~/.codex/skills/awen-store-visual-skill`
-- `~/.agents/skills/awen-store-visual-skill`
+```text
+~/.codex/skills/awen-store-visual-skill
+~/.agents/skills/awen-store-visual-skill
+```
 
 ### 在 Claude 中安装
 
@@ -30,10 +40,20 @@
 2. 确保 `SKILL.md` 位于技能根目录。
 3. 重新加载 Claude 后，直接用中文描述任务即可。
 
+一键复制安装：
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R awen-store-visual-skill ~/.claude/skills/
+```
+
 常见做法：
 
-- 放到 `~/.claude/skills/awen-store-visual-skill`
-- 或者放到你当前 Claude 环境约定的 skills 目录
+```text
+~/.claude/skills/awen-store-visual-skill
+```
+
+或者放到你当前 Claude 环境约定的 skills 目录。
 
 ### 在 Antigravity 中安装
 
@@ -41,10 +61,19 @@
 2. 确保 `SKILL.md` 是入口文件。
 3. 重启或刷新技能索引后使用。
 
+一键复制安装：
+
+```bash
+cp -R awen-store-visual-skill <Antigravity skills 目录>/
+```
+
 常见做法：
 
-- 放到 Antigravity 识别的 skills 目录
-- 保持目录结构不变
+```text
+Antigravity 识别的 skills 目录
+```
+
+保持目录结构不变。
 
 ### 使用方法
 
