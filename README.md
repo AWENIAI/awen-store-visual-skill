@@ -95,6 +95,12 @@ git clone https://github.com/AWENIAI/awen-store-visual-skill.git <Antigravity sk
 ```
 
 ```text
+场景：商品详情页生成
+输入：产品图 + 商品卖点 + 品牌信息
+目标：生成适合电商详情页的分屏文案和视觉提示词
+```
+
+```text
 场景：PSD 分层
 输入：海报图
 目标：拆分背景、文字、产品、装饰元素，保持位置不变
