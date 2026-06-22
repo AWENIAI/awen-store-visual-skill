@@ -21,8 +21,6 @@ awen-store-visual-skill 是一个用于中文商业视觉生成与图像工作�
 
 ```bash
 git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.codex/skills/awen-store-visual-skill
-git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.claude/skills/awen-store-visual-skill
-git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.agents/skills/awen-store-visual-skill
 ```
 
 这是最直接的安装方式，会把技能放到对应环境常用的目录里。
