@@ -15,16 +15,11 @@
 
 ### 在 Codex 中安装
 
-1. 将整个文件夹放入 Codex 的 Skills 目录。
-2. 确保根目录直接包含 `SKILL.md`。
-3. 重启或刷新 Codex 后即可使用。
-
 一键复制安装：
 
 ```bash
-mkdir -p ~/.codex/skills ~/.agents/skills
-cp -R awen-store-visual-skill ~/.codex/skills/
-cp -R awen-store-visual-skill ~/.agents/skills/
+git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.codex/skills/awen-store-visual-skill
+cp -R ~/.codex/skills/awen-store-visual-skill ~/.agents/skills/
 ```
 
 常见路径：
@@ -36,15 +31,10 @@ cp -R awen-store-visual-skill ~/.agents/skills/
 
 ### 在 Claude 中安装
 
-1. 将整个文件夹放到 Claude 可读取的 Skills 目录。
-2. 确保 `SKILL.md` 位于技能根目录。
-3. 重新加载 Claude 后，直接用中文描述任务即可。
-
 一键复制安装：
 
 ```bash
-mkdir -p ~/.claude/skills
-cp -R awen-store-visual-skill ~/.claude/skills/
+git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.claude/skills/awen-store-visual-skill
 ```
 
 常见做法：
@@ -57,14 +47,10 @@ cp -R awen-store-visual-skill ~/.claude/skills/
 
 ### 在 Antigravity 中安装
 
-1. 将整个文件夹放到 Antigravity 的技能目录。
-2. 确保 `SKILL.md` 是入口文件。
-3. 重启或刷新技能索引后使用。
-
 一键复制安装：
 
 ```bash
-cp -R awen-store-visual-skill <Antigravity skills 目录>/
+git clone https://github.com/AWENIAI/awen-store-visual-skill.git <Antigravity skills 目录>/awen-store-visual-skill
 ```
 
 常见做法：
