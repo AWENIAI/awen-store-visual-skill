@@ -2,7 +2,11 @@
 
 中文商业视觉生成 Skill 包，适合门店营销物料、产品材质精修、电商详情页 10 屏规划、海报分层与 PSD 工作流。
 
-## 适合什么场景
+## 项目简介
+
+awen-store-visual-skill 是一个用于中文商业视觉生成与图像工作流的 Skill，目标是把重复的门店物料、产品精修、详情页规划和 PSD 分层工作，统一收敛成可复用模板。
+
+本项目适用于：
 
 - 门店开业海报
 - 门店桌牌 / 立牌 / 展架
@@ -11,57 +15,61 @@
 - 电商详情页信息提取与分页规划
 - 海报图层拆分与 PSD 合成规则
 
-## 安装与使用
+## 安装
 
-### 在 Codex 中安装
-
-一键复制安装：
+### 方法一：通过 Git 一键安装（推荐）
 
 ```bash
 git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.codex/skills/awen-store-visual-skill
-cp -R ~/.codex/skills/awen-store-visual-skill ~/.agents/skills/
+git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.claude/skills/awen-store-visual-skill
+git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.agents/skills/awen-store-visual-skill
 ```
 
-常见路径：
+这是最直接的安装方式，会把技能放到对应环境常用的目录里。
 
-```text
-~/.codex/skills/awen-store-visual-skill
-~/.agents/skills/awen-store-visual-skill
+### 在 Codex 中安装
+
+```bash
+git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.codex/skills/awen-store-visual-skill
 ```
 
 ### 在 Claude 中安装
-
-一键复制安装：
 
 ```bash
 git clone https://github.com/AWENIAI/awen-store-visual-skill.git ~/.claude/skills/awen-store-visual-skill
 ```
 
-常见做法：
-
-```text
-~/.claude/skills/awen-store-visual-skill
-```
-
-或者放到你当前 Claude 环境约定的 skills 目录。
-
 ### 在 Antigravity 中安装
-
-一键复制安装：
 
 ```bash
 git clone https://github.com/AWENIAI/awen-store-visual-skill.git <Antigravity skills 目录>/awen-store-visual-skill
 ```
 
-常见做法：
+### 方法二：手动安装
+
+1. 下载本项目的 ZIP 文件，或先克隆到本地。
+2. 将 `awen-store-visual-skill` 文件夹复制到对应环境的 skills 目录：
+   - Codex：`~/.codex/skills/`
+   - Claude：`~/.claude/skills/`
+   - Antigravity：其约定的 skills 目录
+3. 确保文件夹根目录直接包含 `SKILL.md`。
+4. 重启或刷新对应环境后即可使用。
+
+### 验证安装
+
+重启或刷新后，在对应环境中直接输入技能入口或用中文描述任务即可。
+
+### 常见路径
 
 ```text
-Antigravity 识别的 skills 目录
+~/.codex/skills/awen-store-visual-skill
+~/.claude/skills/awen-store-visual-skill
+<Antigravity skills 目录>/awen-store-visual-skill
 ```
 
-保持目录结构不变。
+## 使用
 
-### 使用方法
+### 基本用法
 
 直接用中文给最少信息，Skill 会自动路由到对应模板。
 
@@ -92,6 +100,14 @@ Antigravity 识别的 skills 目录
 目标：拆分背景、文字、产品、装饰元素，保持位置不变
 ```
 
+## 输出习惯
+
+- 优先保留用户提供的品牌、产品名、价格、比例和文案
+- 不做无根据推测
+- 中文主标题、价格和活动信息优先保证可读
+- 批量图必须是独立图片，不要拼贴
+- PSD 相关任务先输出分层规则，再交给支持 PSD 的工具继续处理
+
 ## 文件结构
 
 - `SKILL.md`：主入口，负责任务路由和全局规则
@@ -99,6 +115,12 @@ Antigravity 识别的 skills 目录
 - `rules/`：通用规则和变量规范
 - `examples/`：可直接复制的快捷示例
 - `assets/cases/`：实际产出展示案例
+
+## 检查清单
+
+- 没有图片时，可以直接用文字变量生成
+- 信息不全时，可以先生成通用版本，但真实品牌名、价格、成分和活动时间不要乱补
+- PSD 相关任务优先输出分层清单与合成规则
 
 ## 随手拍对比
 
